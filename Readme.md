@@ -2,9 +2,7 @@
 IT 회사들의 Tech Blog에 새로운 글이 올라올 때마다 알림을 주는 슬랙 봇입니다.
 
 ```javascript
-var http = require('http'),
-    querystring = require('querystring');
-require('request-to-curl');
+const request = require('request');
 ```
 
 ```shell script
@@ -21,3 +19,6 @@ curl -X POST -H 'Content-type: application/json' --data '{"text":"Hello, World!"
 
 ![슬랙 출력](./image/slack-print.png)
 
+[https://curl.trillworks.com/#node](https://curl.trillworks.com/#node) 를 통한 Curl 요청을 Ndoe.js 코드로 변환 시켜 줍니다.  
+
+![Change Command](./image/change-command.png)
