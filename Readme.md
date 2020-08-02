@@ -12,6 +12,7 @@ npm install request-to-curl --save
 ```
 
 ![CURL를 통한 웹훅](./image/curl-to-slack.png)
+
 슬랙의 웹훅은 CURL를 통한 요청을 합니다.  
 
 ```shell script
