@@ -12,6 +12,7 @@
   "dependencies": {
     "nodemon": "^2.0.4",
     "request-to-curl": "^0.1.6",
+    "shelljs": "^0.8.4",
     "slack-node": "^0.1.8"
   }
 }
